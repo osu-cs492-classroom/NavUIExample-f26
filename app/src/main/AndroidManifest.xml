@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GitHubSearch">
         <activity
-            android:name=".MainActivity"
+            android:name=".MainActivityWithBottomTabs"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
