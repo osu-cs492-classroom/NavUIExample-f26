@@ -1,0 +1,3 @@
+# Using the Navigation UI Library
+
+In this project, we'll add some navigation-related UI features using the Jetpack Navigation UI library.  To work with this project, you can clone it from GitHub onto your development machine and then import it into Android Studio using File → New → Import...

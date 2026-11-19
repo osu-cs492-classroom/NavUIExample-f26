@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NavUI Example</string>
+
+    <string name="label_search">Search</string>
+    <string name="label_settings">Settings</string>
+    <string name="label_bookmarks">Bookmarks</string>
+
+    <string name="go_to_search">Go to search</string>
+    <string name="go_to_settings">Go to settings</string>
+    <string name="go_to_bookmarks">Go to bookmarks</string>
+</resources>

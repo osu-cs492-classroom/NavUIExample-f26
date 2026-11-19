@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/search">
+
+    <fragment
+        android:id="@+id/search"
+        android:name="edu.oregonstate.cs492.navuiexample.SearchFragment"
+        android:label="@string/label_search">
+        <action
+            android:id="@+id/navigate_to_settings"
+            app:destination="@id/settings"/>
+        <action
+            android:id="@+id/navigate_to_bookmarks"
+            app:destination="@id/bookmarks" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settings"
+        android:name="edu.oregonstate.cs492.navuiexample.SettingsFragment"
+        android:label="@string/label_settings" />
+
+    <fragment
+        android:id="@+id/bookmarks"
+        android:name="edu.oregonstate.cs492.navuiexample.BookmarksFragment"
+        android:label="@string/label_bookmarks" />
+
+</navigation>
